@@ -8,10 +8,14 @@
 
 	"content_scripts":
 	[
+
 		{
+
 			"matches": ["*://*.twitch.tv/*"],
 			"js": ["prevent.js"]
+
 		}
+
 	],
 	"icons":
 	{ 

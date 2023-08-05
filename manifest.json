@@ -1,0 +1,25 @@
+{
+	
+	"name": "Twitch AntiQuality Switcher",
+	"author": "HexedHero",
+	"version": "1.0.0",
+	"description": "Prevents the Twitch player from switching quality when switching tabs!",
+	"manifest_version": 3,
+
+	"content_scripts":
+	[
+		{
+			"matches": ["*://*.twitch.tv/*"],
+			"js": ["prevent.js"]
+		}
+	],
+	"icons":
+	{ 
+
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+
+    }
+	
+}

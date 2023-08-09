@@ -2,7 +2,7 @@
 	
 	"name": "Twitch AntiQuality Switcher",
 	"author": "HexedHero",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Prevents the Twitch player from switching quality when switching tabs!",
 	"manifest_version": 3,
 
